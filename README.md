@@ -1,6 +1,8 @@
 CIS 563 Introduction to Data Science's final Project : Classification using Support vector machines Cross-validation along with GridSearchCV and logistic regression along with k-fold cross-validation for evaluation is done on handwritten digits. 
 Testing is done on real time data.
+
 One of the features of Mac OS X that intrigued me is how my machine is able to detect my handwriting and allows me to copy-paste it in text format, inspired by this I was motivated to create my project which follows a similar process.
+
 Results and findings:
 1. For the SVM model using GridSearchCV: The best score across all searched parameters are 0.985894580549369
 2. The best estimator across ALL searched params is given as SVC (C=1, cache_size=200, class_weight=None, coef0=0.0, decision_function_shape='ovr', degree=3, gamma=0.001, kernel='rbf', max_iter=-1, probability=False, random_state=None, shrinking=True, tol=0.001, verbose=False)
